@@ -1,10 +1,12 @@
 {
-  "name": "my-react-app",
+  "name": "Hernandez_Benicio_Lab4",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "Benicio Hernandez 10479057",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

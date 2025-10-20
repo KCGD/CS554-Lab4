@@ -1,9 +1,9 @@
 {
-  "name": "CS554-Base",
+  "name": "CS554-Lab4",
   "version": "1.0.0",
   "main": "app.js",
   "repository": "https://github.com/KCGD/CS554-Base.git",
-  "author": "KCGD <kcgdhosting@gmail.com>",
+  "author": "Benicio Hernandez",
   "license": "MIT",
   "type": "module",
   "scripts": {
