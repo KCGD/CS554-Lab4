@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { TodoList, type todoListProps } from './TodoList';
 import { CompletedTodos } from './CompletedTodo';
@@ -29,16 +27,12 @@ function App() {
   const toggleCompleted = (e: React.MouseEvent, item: todoListProps["todo"][0]) => {
     item.completed = !item.completed;
     let newlist = [...todo];
-    
-    let mod = newlist.map((task) => {
+
+    setTodo(newlist.map((task) => {
       return (task.id === item.id)
         ? item 
         : task
-    })
-
-    console.log(mod);
-
-    setTodo(mod);
+    }));
   }
 
   return (
